@@ -44,9 +44,9 @@
     <!--有料-->
     <div class="material">
       <h3>有料</h3>
-      <p>实力、信心、有保障   <span><i @change="handleChange"></i>/3</span></p>
+      <p>实力、信心、有保障   <span><i>{{swiperIndex}}</i>/3</span></p>
       <div class="swiperBox">
-        <swipe :auto="0">
+        <swipe :auto="0" :show-indicators="false" @change="handleChange">
           <swipe-item v-for="(item, index) in materialList" :key="index"><img :src="item.img" alt=""></swipe-item>
         </swipe>
       </div>
@@ -130,7 +130,9 @@
       }, 5000);
     },
     methods: {
-      handleChange (index) {}
+      handleChange (index) {
+        this.swiperIndex = index + 1;
+      }
     }
   };
 </script>
