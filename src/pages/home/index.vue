@@ -34,12 +34,12 @@
         </dl>
       </div>
       <ul class="tips">
-        <li><img src="../../src/assets/images/home_icon_gift@2x.png" alt=""><span>注册送大礼</span></li>
-        <li><img src="../../src/assets/images/home_icon_money@2x.png" alt=""><span>资金安全</span></li>
-        <li class="three"><img src="../../src/assets/images/home_icon_safe1@2x.png" alt=""><span>100元起投</span></li>
+        <li><img src="../../assets/images/home_icon_gift@2x.png" alt=""><span>注册送大礼</span></li>
+        <li><img src="../../assets/images/home_icon_money@2x.png" alt=""><span>资金安全</span></li>
+        <li class="three"><img src="../../assets/images/home_icon_safe1@2x.png" alt=""><span>100元起投</span></li>
       </ul>
       <a href="javascript:;" class="button">抢购</a>
-      <p class="font"><img src="../assets/images/home_icon_safe2@2x.png" alt="">海口联合农商银行资金存管</p>
+      <p class="font"><img src="../../assets/images/home_icon_safe2@2x.png" alt="">海口联合农商银行资金存管</p>
     </div>
     <!--有料-->
     <div class="material">
@@ -55,7 +55,7 @@
 </template>
 
 <script>
-  import BannerList from '../../src/components/banner/banner.vue';
+  import BannerList from '../../components/banner/banner.vue';
   import { Swipe, SwipeItem } from 'mint-ui';
   export default {
     components: {
@@ -68,19 +68,19 @@
         navList: [
           {
             span: '新手特权',
-            img: require('../assets/images/banner-icon1.png')
+            img: require('../../assets/images/banner-icon1.png')
           },
           {
             span: '点我领钱',
-            img: require('../assets/images/banner-icon2.png')
+            img: require('../../assets/images/banner-icon2.png')
           },
           {
             span: '邀请有礼',
-            img: require('../assets/images/banner-icon3.png')
+            img: require('../../assets/images/banner-icon3.png')
           },
           {
             span: '安全保障',
-            img: require('../assets/images/banner-icon4.png')
+            img: require('../../assets/images/banner-icon4.png')
           }
         ],
         newsList: [
@@ -100,13 +100,13 @@
         activeIndex: 0,
         materialList: [
           {
-            img: require('../assets/images/普惠金融.png')
+            img: require('../../assets/images/普惠金融.png')
           },
           {
-            img: require('../assets/images/会员单位.png')
+            img: require('../../assets/images/会员单位.png')
           },
           {
-            img: require('../assets/images/银行存管.png')
+            img: require('../../assets/images/银行存管.png')
           }
         ],
         swiperIndex: 1

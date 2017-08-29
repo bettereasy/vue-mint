@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from '@/pages/index';
-import Money from '@/pages/money';
-import Find from '@/pages/find';
-import Me from '@/pages/me';
+import Index from '@/pages/home/index';
+import Money from '@/pages/invest/money';
+import Find from '@/pages/find/find';
+import Me from '@/pages/my/me';
 import Footer from '@/components/footer/footer2';
 import Banner from '@/components/banner/banner';
 
