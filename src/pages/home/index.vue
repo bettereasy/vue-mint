@@ -16,7 +16,7 @@
     <!--新闻列表上下滚动-->
     <div class="newsBox">
       <p>系统公告</p>
-      <ul content="newsIn" :style="{ top, transition }">
+      <ul class="newsIn" :style="{ top, transition }">
         <li v-for="item in newsList">{{item.news}}</li>
       </ul>
     </div>
