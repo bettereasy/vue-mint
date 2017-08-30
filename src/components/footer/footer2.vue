@@ -11,11 +11,11 @@
           </div>
         </router-link>
       </nav>
-      <nav class="nav nav-money" :class="{'cur-page': route === '/money'}">
-        <router-link to="/money">
+      <nav class="nav nav-invest" :class="{'cur-page': route === '/invest'}">
+        <router-link to="/invest">
           <div class="nav-icon">
-            <img v-show="route !== '/money'" src="../../assets/images/tab_menu_invest_default@2x.png" alt="">
-            <img v-show="route === '/money'" src="../../assets/images/tab_menu_invest_pressed@2x.png" alt="">
+            <img v-show="route !== '/invest'" src="../../assets/images/tab_menu_invest_default@2x.png" alt="">
+            <img v-show="route === '/invest'" src="../../assets/images/tab_menu_invest_pressed@2x.png" alt="">
           </div>
         </router-link>
       </nav>
@@ -97,21 +97,21 @@
     height: 100%;
   }
   .nav-index::after,
-  .nav-money::after,
+  .nav-invest::after,
   .nav-find::after,
   .nav-me::after {
     padding-top: (2rem/40);
     text-align: center;
     width:(80rem/40);
     display: inline-block;
-    font-size: (12rem/40);
+    font-size: (20rem/40);
     margin-top:(5rem/40);
   }
   .nav-index::after {
     content: "首页";
   }
-  .nav-money::after {
-    content: "理财";
+  .nav-invest::after {
+    content: "投资";
   }
   .nav-find::after {
     content: "发现";

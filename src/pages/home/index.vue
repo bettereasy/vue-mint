@@ -55,8 +55,8 @@
 </template>
 
 <script>
-  import BannerList from '../../components/banner/banner.vue';
-  import { Swipe, SwipeItem } from 'mint-ui';
+  import BannerList from "../../components/banner/banner.vue";
+  import { Swipe, SwipeItem } from "mint-ui";
   export default {
     components: {
       BannerList,
@@ -67,46 +67,46 @@
       return {
         navList: [
           {
-            span: '新手特权',
-            img: require('../../assets/images/banner-icon1.png')
+            span: "新手特权",
+            img: require("../../assets/images/banner-icon1.png")
           },
           {
-            span: '点我领钱',
-            img: require('../../assets/images/banner-icon2.png')
+            span: "点我领钱",
+            img: require("../../assets/images/banner-icon2.png")
           },
           {
-            span: '邀请有礼',
-            img: require('../../assets/images/banner-icon3.png')
+            span: "邀请有礼",
+            img: require("../../assets/images/banner-icon3.png")
           },
           {
-            span: '安全保障',
-            img: require('../../assets/images/banner-icon4.png')
+            span: "安全保障",
+            img: require("../../assets/images/banner-icon4.png")
           }
         ],
         newsList: [
           {
-            news: '习近平谈党规:从严治党首先要尊崇党章1'
+            news: "习近平谈党规:从严治党首先要尊崇党章1"
           },
           {
-            news: '习近平谈党规:从严治党首先要尊崇党章2'
+            news: "习近平谈党规:从严治党首先要尊崇党章2"
           },
           {
-            news: '习近平谈党规:从严治党首先要尊崇党章3'
+            news: "习近平谈党规:从严治党首先要尊崇党章3"
           },
           {
-            news: '习近平谈党规:从严治党首先要尊崇党章4'
+            news: "习近平谈党规:从严治党首先要尊崇党章4"
           }
         ],
         activeIndex: 0,
         materialList: [
           {
-            img: require('../../assets/images/普惠金融.png')
+            img: require("../../assets/images/普惠金融.png")
           },
           {
-            img: require('../../assets/images/会员单位.png')
+            img: require("../../assets/images/会员单位.png")
           },
           {
-            img: require('../../assets/images/银行存管.png')
+            img: require("../../assets/images/银行存管.png")
           }
         ],
         swiperIndex: 1
@@ -114,10 +114,10 @@
     },
     computed: {
       top () {
-        return -this.activeIndex * 2.25 + 'rem';
+        return -this.activeIndex * 2.25 + "rem";
       },
       transition () {
-        return this.activeIndex === 0 ? 'none' : 'top 1.5s';
+        return this.activeIndex === 0 ? "none" : "top 1.5s";
       }
     },
     mounted () {
@@ -319,11 +319,9 @@
     .material {
       width: 100%;
       height: (380rem/40);
-      margin-bottom:(116rem/40);
+      margin-bottom:0.45rem;
       background: #fff;
-      padding-top:(44rem/40);
-      padding-bottom:(40rem/40);
-      padding-left:(30rem/40);
+      padding:1.1rem 0.75rem 1rem;
       box-sizing: border-box;
       h3{
         font-size:(30rem/40);
@@ -339,13 +337,16 @@
         }
       }
       .swiperBox{
-        width: (680rem/40);
-        height: (200rem/40);
-        .mint-swipe{
-          margin-right:(16rem/40);
-        }
+        width: 100%;
+        height: 5rem;
         .mint-swipe-item{
+          width: 100%;
+          height: 5rem;
           margin-right:(16rem/40);
+          img{
+            width: 100%;
+            height: 100%;
+          }
         }
       }
   }

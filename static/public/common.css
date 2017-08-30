@@ -64,7 +64,7 @@ html {
 }
 
 body {
-    max-width: 750px;
+    /*max-width: 750px;*/
     margin: 0 auto;
     color: #333;
     font-size: 0.75rem;
@@ -228,7 +228,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     height: .8rem;
     margin-right: .25rem;
     margin-bottom: -.1rem;
-    background: url(/weixin/v02/public/images/loading.gif) no-repeat center center;
     background-size: contain;
 }
 
@@ -281,7 +280,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     height: .8rem;
     margin-right: .25rem;
     margin-bottom: -.1rem;
-    background: url(/weixin/v02/public/images/loading.gif) no-repeat center center;
+    /*background: url(/weixin/v02/public/images/loading.gif) no-repeat center center;*/
     background-size: contain;
 }
 
@@ -294,7 +293,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     width: 14rem;
     height: 8.45rem;
     padding-top: 8.75rem;
-    background: url(/weixin/v02/public/images/bg@2x.png) no-repeat center center;
+    /*background: url(/weixin/v02/public/images/bg@2x.png) no-repeat center center;*/
     background-size: contain;
     color: #fff;
     text-align: center;
@@ -329,7 +328,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     width: 1.6rem;
     height: 1.6rem;
     margin: 1.1rem auto 0;
-    background: url(/weixin/v02/public/images/close@2x.png) no-repeat center center;
+    /*background: url(/weixin/v02/public/images/close@2x.png) no-repeat center center;*/
     background-size: contain;
 }
 
@@ -362,7 +361,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     height: .575rem;
     right: .5rem;
     top: .7125rem;
-    background: url(/weixin/v02/public/images/icon-17.png) no-repeat center center;
+    /*background: url(/weixin/v02/public/images/icon-17.png) no-repeat center center;*/
     background-size: contain;
 }
 

@@ -39,7 +39,7 @@
 </template>
 
 <script>
-  import { TabContainer, TabContainerItem, Cell, Tabbar, TabItem } from 'mint-ui';
+  import { TabContainer, TabContainerItem, Cell, Tabbar, TabItem } from "mint-ui";
   export default {
     components: {
       TabContainer,
@@ -50,7 +50,7 @@
     },
     data () {
       return {
-        selected: '首页'
+        selected: "首页"
       };
     }
   };
